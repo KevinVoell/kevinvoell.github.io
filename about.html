@@ -34,29 +34,7 @@
         {% include sidebar.html %}
         
         <div class="main-wrapper">
-        {% for card in site.posts reversed %}
-			<section class="section summary-section">
-				<h2 class="section-title"><i class="fa fa-user"></i>{{ card.heading }}</h2>
-				<div class="summary">
-					{% if card.subheading %}
-					  <p class="">
-						{{ card.subheading }}
-					  </p>
-					{% endif %}
-					{% if card.duration %}
-					  <p class="">
-						{{ card.duration }}
-					  </p>
-					{% endif %}
-					{% if card.location %}
-					  <p class="">
-						{{ card.location }}
-					  </p>
-					{% endif %}
-					{{ card.content }}
-				</div>
-			</section>
-        {% endfor %}            
+            
  
         </div><!--//main-body-->
     </div>

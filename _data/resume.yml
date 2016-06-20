@@ -1,0 +1,21 @@
+# IMPORTANT: Set this to false.
+demo: false
+
+# Theme customization is done on this file instead of _config.yml so that
+# you don't have to restart Jekyll to see changes.
+
+photo: "https://avatars0.githubusercontent.com/u/1933316?v=3&u=c95c6aa314e1fbb7e5c1a907c047435769dc7512&s=140"
+name: "Kevin Voell"
+copy: "Software Architect/Engineer with over 15 years' experience."
+
+# Color scheme based on http://www.materialui.co/colors.
+# Possible values:
+# - default
+# - red
+# - pink
+# - brown
+# - blue
+# - purple
+# - teal
+# - green
+color: blue
