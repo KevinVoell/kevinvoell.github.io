@@ -13,11 +13,12 @@
 	}
 	
 	function DisplayName(name) {
-		alert('Hello ' + name);	
+		//alert('Hello ' + name);	
+		document.getElementById('displayName').innerHtml = 'hello ' + name;
 	}
 </script>
 </head>
 <body>
-Hello world!
+	<div id='displayName'>Hello world!</div>
 </body>
 </html>
