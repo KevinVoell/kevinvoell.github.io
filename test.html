@@ -1,0 +1,19 @@
+<html>
+<head>
+<script type="text/javascript">
+	if (window.addEventListener) { // Mozilla, Netscape, Firefox
+		window.addEventListener('load', WindowLoad, false);
+	} else if (window.attachEvent) { // IE
+		window.attachEvent('onload', WindowLoad);
+	}
+
+	function WindowLoad(event) 
+	{
+		alert('document loaded');
+	}
+</script>
+</head>
+<body>
+Hello world!
+</body>
+</html>
