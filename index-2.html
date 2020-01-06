@@ -33,8 +33,35 @@
 
     <!-- Header Area wrapper Starts -->
     <header id="header-wrap">
+      <div class="menu-wrap">
+        <div class="menu navbar">
+          <div class="menu-list navbar-collapse">
+            <ul class="onepage-nev navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#hero-area">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>                            
+              <li class="nav-item">
+                <a class="nav-link" href="#resume">Resume</a>
+              </li>            
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolios">Work</a>
+              </li>   
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>   
+            </ul>
+          </div>
+        </div> 
+        <button class="close-button" id="close-button"><i class="icon-close"></i></button>
+      </div>  
       <!-- Navbar Start -->
-      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar menu-bg">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -47,35 +74,10 @@
             <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>
           </div>
           <div class="collapse navbar-collapse" id="main-navbar">
-            <ul class="onepage-nev navbar-nav mr-auto w-100 justify-content-end clearfix">
-              <li class="nav-item active">
-                <a class="nav-link" href="#hero-area">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">
-                  About
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">
-                  Services
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#resume">
-                  Resume
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#portfolios">
-                  Work
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">
-                  Contact
+            <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
+              <li class="nav-item" id="open-button">
+                <a class="nav-link">
+                  <i class="icon-menu"></i>
                 </a>
               </li>
             </ul>
@@ -83,7 +85,7 @@
         </div>
 
         <!-- Mobile Menu Start -->
-        <ul class="onepage-nev mobile-menu">
+        <ul class="mobile-menu">
           <li>
             <a href="#home">Home</a>
           </li>
@@ -108,16 +110,24 @@
       <!-- Navbar End -->
 
       <!-- Hero Area Start -->
-      <div id="hero-area" class="hero-area-bg">
+      <div id="hero-area">
         <div class="overlay"></div>
+        <ul class="cb-slideshow">
+          <li><span></span></li>
+          <li><span></span></li>
+          <li><span></span></li>
+          <li><span></span></li>
+          <li><span></span></li>
+          <li><span></span></li>
+        </ul>
         <div class="container">
           <div class="row">
             <div class="col-md-12 col-sm-12 text-center">
               <div class="contents">
-                <h5 class="script-font wow fadeInUp">Hi This is</h5>
-                <h2 class="head-title wow fadeInUp">Tom Saulnier</h2>
-                <p class="script-font wow fadeInUp">Front-end Web Developer and Graphic Designer</p>
-                <ul class="social-icon wow fadeInUp">
+                <h5 class="script-font">Hi This is</h5>
+                <h2 class="head-title">Tom Saulnier</h2>
+                <p class="script-font">Front-end Web Developer and Graphic Designer</p>
+                <ul class="social-icon">
                   <li>
                     <a class="facebook" href="#"><i class="icon-social-facebook"></i></a>
                   </li>
@@ -134,7 +144,7 @@
                     <a class="google" href="#"><i class="icon-social-google"></i></a>
                   </li>
                 </ul>
-                <div class="header-button wow fadeInUp">                  <a href="#" class="btn btn-common">Get a Free Quote</a>
+                <div class="header-button">                  <a href="#" class="btn btn-common">Get a Free Quote</a>
                 </div>
               </div>
             </div>
@@ -142,7 +152,6 @@
         </div>
       </div>
       <!-- Hero Area End -->
-
     </header>
     <!-- Header Area wrapper End -->
 
@@ -151,12 +160,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="img-thumb wow fadeInLeft">
+            <div class="img-thumb fadeInLeft">
               <img class="img-fluid" src="assets/img/about/about-1.jpg" alt="">
             </div>
           </div> 
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="profile-wrapper wow fadeInRight">
+            <div class="profile-wrapper fadeInRight">
               <h3>Hi Guys!</h3>
               <p>Est diam venenatis arcu lacus ad. Duis quis eros. Cursus et rutrum eleifend sollicitudin lacinia justo id turpis. Nec convallis integer. Odio eget duis. Nulla aenean et. Blandit varius sollicitudin. Pellentesque leo primis neque urna magnis. Elit ut sollicitudin. Et est a nam dolores eget itaque sagittis et parturient duis est eleifend sociis rutrum odio viverra integer.</p>
               <div class="about-profile">
@@ -182,12 +191,12 @@
 
     <!-- Services Section Start -->
     <section id="services" class="services section-padding">
-      <h2 class="section-title wow flipInX">What I do</h2>
+      <h2 class="section-title flipInX">What I do</h2>
       <div class="container">
         <div class="row">
           <!-- Services item -->
           <div class="col-md-6 col-lg-3 col-xs-12">
-            <div class="services-item">
+            <div class="services-item fadeInDown">
               <div class="icon">
                 <i class="icon-grid"></i>
               </div>
@@ -199,7 +208,7 @@
           </div>
           <!-- Services item -->
           <div class="col-md-6 col-lg-3 col-xs-12">
-            <div class="services-item">
+            <div class="services-item fadeInDown">
               <div class="icon">
                 <i class="icon-layers"></i>
               </div>
@@ -211,7 +220,7 @@
           </div>
           <!-- Services item -->
           <div class="col-md-6 col-lg-3 col-xs-12">
-            <div class="services-item">
+            <div class="services-item fadeInDown">
               <div class="icon">
                 <i class="icon-briefcase"></i>
               </div>
@@ -223,7 +232,7 @@
           </div>
           <!-- Services item -->
           <div class="col-md-6 col-lg-3 col-xs-12">
-            <div class="services-item">
+            <div class="services-item fadeInDown">
               <div class="icon">
                 <i class="icon-bubbles"></i>
               </div>
@@ -243,7 +252,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6">
-            <div class="education wow fadeInRight">
+            <div class="education fadeInRight">
               <ul class="timeline">
                 <li>
                   <i class="icon-graduation"></i>
@@ -274,7 +283,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6">
-            <div class="experience wow fadeInRight">
+            <div class="experience fadeInRight">
               <ul class="timeline">
                 <li>
                   <i class="icon-briefcase"></i>
@@ -313,7 +322,7 @@
     <section id="portfolios" class="section-padding">
       <!-- Container Starts -->
       <div class="container">        
-        <h2 class="section-title wow flipInX">My Remarkable Works</h2>
+        <h2 class="section-title flipInX">My Remarkable Works</h2>
         <div class="row">          
           <div class="col-md-12">
             <!-- Portfolio Controller/Buttons -->
@@ -335,7 +344,7 @@
           </div>
 
           <!-- Portfolio Recent Projects -->
-          <div id="portfolio" class="row">
+          <div id="portfolio" class="row fadeInDown">
             <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development print">
               <div class="portfolio-item">
                 <div class="shot-item">
@@ -451,7 +460,7 @@
         <div class="row">
           <!-- Counter Item -->
           <div class="col-md-3 col-sm-6 work-counter-widget text-center">
-            <div class="counter">
+            <div class="counter fadeInDown">
               <div class="icon"><i class="icon-briefcase"></i></div>
               <div class="counterUp">250</div>
               <p>Project Working</p>
@@ -459,7 +468,7 @@
           </div>
           <!-- Counter Item -->
           <div class="col-md-3 col-sm-6 work-counter-widget text-center">
-            <div class="counter">
+            <div class="counter fadeInDown">
               <div class="icon"><i class="icon-check"></i></div>
               <div class="counterUp">950</div>
               <p>Project Done</p>
@@ -467,7 +476,7 @@
           </div>
           <!-- Counter Item -->
           <div class="col-md-3 col-sm-6 work-counter-widget text-center">
-            <div class="counter">
+            <div class="counter fadeInDown">
               <div class="icon"><i class="icon-diamond"></i></div>
               <div class="counterUp">150</div>
               <p>Awards Received</p>
@@ -475,7 +484,7 @@
           </div>
           <!-- Counter Item -->
           <div class="col-md-3 col-sm-6 work-counter-widget text-center">
-            <div class="counter">
+            <div class="counter fadeInDown">
               <div class="icon"><i class="icon-heart"></i></div>
               <div class="counterUp">299</div>
               <p>Happy Clients</p>
@@ -490,7 +499,7 @@
     <section id="contact" class="section-padding">      
       <div class="contact-form">
         <div class="container">
-          <div class="row contact-form-area wow fadeInUp">          
+          <div class="row contact-form-area">          
             <div class="col-md-6 col-lg-6 col-sm-12">
               <div class="contact-block">
                 <h2>Contact Form</h2>
@@ -530,7 +539,7 @@
               </div>
             </div>
             <div class="col-md-6 col-lg-6 col-sm-12">
-              <div class="footer-right-area wow fadeIn">
+              <div class="footer-right-area fadeIn">
                 <h2>Contact Address</h2>
                 <div class="footer-right-contact">
                   <div class="single-contact">
@@ -570,7 +579,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="footer-text text-center">
+            <div class="footer-text text-center fadeInDown">
               <ul class="social-icon">
                 <li>
                   <a class="facebook" href="#"><i class="icon-social-facebook"></i></a>
@@ -608,13 +617,15 @@
     <script src="assets/js/jquery.mixitup.js"></script>
     <script src="assets/js/jquery.counterup.min.js"></script>
     <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/classie.js"></script>
     <script src="assets/js/jquery.nav.js"></script>
     <script src="assets/js/jquery.easing.min.js"></script>  
     <script src="assets/js/nivo-lightbox.js"></script>
     <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/modernizr.custom.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/form-validator.min.js"></script>
     <script src="assets/js/contact-form-script.min.js"></script>
-      
   </body>
 </html>

@@ -43,15 +43,6 @@
         openedSymbol: '<i class="icon-arrow-down"></i>',
       });
 
-      /* WOW Scroll Spy
-    ========================================================*/
-     var wow = new WOW({
-      //disabled for mobile
-        mobile: false
-    });
-
-    wow.init();
-
     /* Nivo Lightbox 
     ========================================================*/
     $('.lightbox').nivoLightbox({
@@ -87,6 +78,12 @@
         return false;
       });
 
+      /* Map Form Toggle
+      ========================================================*/
+      $('.map-icon').on('click',function (e) {
+          $('#conatiner-map').toggleClass('panel-show');
+          e.preventDefault();
+      });
 
 
   });      
