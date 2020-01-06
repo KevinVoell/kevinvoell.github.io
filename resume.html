@@ -26,6 +26,24 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+	
+    <style>
+	    .iframe-container {
+  overflow: hidden;
+  // Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625)
+  padding-top: 56.25%;
+  position: relative;
+}
+ 
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+	</style>
 </head> 
 
 <body>
@@ -34,11 +52,11 @@
         {% include sidebar.html %}
         
         <div class="main-wrapper" style="height:100%;width:100%">
+		<div class="iframe-container">
             <iframe 
 		    src="https://docs.google.com/document/d/e/2PACX-1vQbW9xKKkuEAhza3YrKNb5hM77fcvSiuH3vNMZBXug7DIZiBpe8gfBdXTGWyVmzDlG_yuUOVXEqUrxs/pub?embedded=true"
-		    frameborder="0" style="overflow:hidden;height:100%;width:100%;position: fixed;" height="100%" width="100%"
 		    ></iframe>
-            
+		</div>
         </div><!--//main-body-->
     </div>
  
