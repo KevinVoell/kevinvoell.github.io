@@ -28,9 +28,8 @@
     <![endif]-->
 	
     <style>
-	    .iframe-container {
+.iframe-container {
   overflow: hidden;
-  // Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625)
   padding-top: 56.25%;
   position: relative;
 }
@@ -42,6 +41,11 @@
    position: absolute;
    top: 0;
    width: 100%;
+}
+ 
+/* 4x3 Aspect Ratio */
+.iframe-container-4x3 {
+  padding-top: 75%;
 }
 	</style>
 </head> 
