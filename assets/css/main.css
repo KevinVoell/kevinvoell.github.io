@@ -407,8 +407,9 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .timeline li span {
+  line-height: normal;
   font-size: 14px;
-  padding: 3px 0;
+  padding: 0;
   display: block;
   font-weight: bold;
 }
