@@ -407,9 +407,10 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .timeline li span {
-  font-size: 12px;
-  padding: 9px 0;
+  font-size: 14px;
+  padding: 3px 0;
   display: block;
+  font-weight: bold;
 }
 
 .timeline li .line-text {
