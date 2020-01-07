@@ -417,6 +417,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 .timeline li .line-text {
   color: #888;
   line-height: 18px;
+  margin-bottom: 5px;
+  margin-left: 3px;
 }
 
 .timeline li:first-child:before {
