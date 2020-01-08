@@ -212,6 +212,14 @@ button:focus {
   color: #fff;
 }
 
+.social-icon li .github:hover {
+  background: #4078c0;
+}
+
+.social-icon li .blogger:hover {
+  background: #f57d00;
+}
+
 .social-icon li .facebook:hover {
   background: #3b5999;
 }
