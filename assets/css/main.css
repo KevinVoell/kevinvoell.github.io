@@ -743,8 +743,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 #hero-area .contents .head-title {
   color: #fff;
   font-size: 60px;
-  letter-spacing: 10px;
-  text-transform: uppercase;
+  letter-spacing: 2px;
+  /*text-transform: uppercase;*/
   font-weight: 700;
 }
 
