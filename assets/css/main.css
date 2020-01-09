@@ -19,6 +19,55 @@ body {
   overflow-x: hidden;
 }
 
+/*
+defines the bounding div for the entire display- use to define borders, fill, etc.
+*/
+div.rss-box {
+	background-color: #f2f2f2;
+	padding: 10px;
+} 
+/* 
+the title of the feed and link style if displayed. Use with variants of rss-title a:link, rss-title a:hover, etc for rollowver styles
+*/
+div.rss-title {
+	
+} 
+
+/*
+defines the unordered list <ul>...</ul> for the feed items- use to define the padding/margins for items.
+ */
+ul.rss-items {
+	
+	
+}
+
+/*
+display of each feed item description and title, <li>...</li> as well as the channel description, if displayed.
+ */
+li.rss-item {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/*
+variant for the item title and link style
+ */
+a.rss-item a: {
+	
+} 
+
+/*
+(new) span to define style for display of author name
+ */
+div.rss-item-auth {}
+
+/*
+defines the display of item posting dates
+ */
+span.rss-date {
+	font-weight: normal;
+}
+
 h1, h2, h3, h4 {
   font-size: 38px;
   font-weight: 700;
