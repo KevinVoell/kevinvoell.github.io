@@ -68,6 +68,11 @@ span.rss-date {
 	font-weight: normal;
 }
 
+div.comments>a {
+	font-size: normal;
+	font-weight: normal;
+}
+
 h1, h2, h3, h4 {
   font-size: 38px;
   font-weight: 700;
