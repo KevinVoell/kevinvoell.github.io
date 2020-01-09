@@ -69,7 +69,7 @@ span.rss-date {
 }
 
 div.comments > h4 {
-	font-size: normal;
+	font-size: initial;
 	font-weight: normal;
 }
 
