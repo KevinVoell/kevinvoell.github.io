@@ -350,8 +350,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   padding: 30px 0;
 }
 
-#about .img-thumb {
-  text-align: center;
+@media screen and (max-width: 768px) {
+	#about .img-thumb {
+	  text-align: center;
+	}
 }
 
 #about .img-thumb img {
