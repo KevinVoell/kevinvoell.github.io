@@ -476,7 +476,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .timeline li span {
   line-height: normal;
-  font-size: 14px;
+  font-size: 16px;
   padding: 0;
   display: block;
   font-weight: bold;
@@ -484,7 +484,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .timeline li .line-text {
   color: #888;
-  line-height: 18px;
+  /*line-height: 18px;*/
   margin-bottom: 5px;
   margin-left: 3px;
 }
