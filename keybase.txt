@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/kvoell
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kevinvoell.com
+  * I am kvoell (https://keybase.io/kvoell) on keybase.
+  * I have a public key ASAWxDdRuc1Zh5E-TmgckoimTkGezYspk0tqbkIgnyBIEgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01012a4cf4a0e15a61fe78574ff41fb7cc65f14b58a24751b7cad0fe7eea2ed86e720a",
+      "host": "keybase.io",
+      "kid": "012016c43751b9cd5987913e4e681c9288a64e419ecd8b29934b6a6e42209f2048120a",
+      "uid": "dd24c4698f4a3489a77efd5198fb8819",
+      "username": "kvoell"
+    },
+    "merkle_root": {
+      "ctime": 1580258191,
+      "hash": "659ca05b3982afe95e99a048d3f0f74300bc0ce95a0c9c711fdd582c94e8564dcae3f6f808efcadf7acb4767b8de40ac7c6192e4e1a07e4c74fae045a4220cb2",
+      "hash_meta": "f38bd9f35baba2f2c6b44de07acaabbd4155c79557dd00c423c1c614165d3ede",
+      "seqno": 14401003
+    },
+    "service": {
+      "entropy": "kyCtO3+jqvt9xBA1yJjfxRwL",
+      "hostname": "kevinvoell.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.1.0"
+  },
+  "ctime": 1580258227,
+  "expire_in": 504576000,
+  "prev": "4060baab7635a1c180f25784c99bc46fece7fea4ad6a0e03bc2f3d7cb45a1d60",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgFsQ3UbnNWYeRPk5oHJKIpk5Bns2LKZNLam5CIJ8gSBIKp3BheWxvYWTESpcCBsQgQGC6q3Y1ocGA8leEyZvEb+zn/qStag4DvC89fLRaHWDEIBYicWONOlweTl7spZWPYqX7ah9GqeXRbHm/eViCzdxcAgHCo3NpZ8RAGQFEbfjyGs79OixOOMZoy3HlIfjgqINVfgnIxg0E+PK17vNKuqUVMBDVRTuGhQ0mzeejFHlzCCkeAYniWelNBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINdxl7/FFSPVF5KiAcl1YhcqWsh9jL2aVSU4TqUp2lE9o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kvoell
+
+==================================================================
