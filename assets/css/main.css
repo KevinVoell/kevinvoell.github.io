@@ -273,6 +273,9 @@ button:focus {
 .social-icon li .blogger:hover {
   background: #f57d00;
 }
+.social-icon li .keybase:hover {
+  background: #333dff;
+}
 
 .social-icon li .facebook:hover {
   background: #3b5999;
